@@ -52,3 +52,5 @@ Referensi :
     SET UNIQUE_CHECKS = 1;
     SET AUTOCOMMIT = 1;
     ```
+Referensi:
+- *[https://agungprasetyo.net/tips-n-trick/import-file-sql-berukuran-besar-ke-database-mysql-dari-command-line/](https://agungprasetyo.net/tips-n-trick/import-file-sql-berukuran-besar-ke-database-mysql-dari-command-line/)
