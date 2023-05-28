@@ -1,6 +1,7 @@
 # MENU
 - [Ganti Versi PHP](#ganti-versi-php)
 - [Import File SQL berukuran besar](#import-file-sql-berukuran-besar)
+- [Menjalankan Server PHP](#menjalankan-server-php)
 ---
 
 ## Ganti Versi PHP 
@@ -53,4 +54,16 @@ Referensi :
     SET AUTOCOMMIT = 1;
     ```
 Referensi:
-- *[https://agungprasetyo.net/tips-n-trick/import-file-sql-berukuran-besar-ke-database-mysql-dari-command-line/](https://agungprasetyo.net/tips-n-trick/import-file-sql-berukuran-besar-ke-database-mysql-dari-command-line/)
+- *[https://agungprasetyo.net/tips-n-trick/import-file-sql-berukuran-besar-ke-database-mysql-dari-command-line/](https://agungprasetyo.net/tips-n-trick/import-file-sql-berukuran-besar-ke-database-mysql-dari-command-line/)*
+
+## Menjalankan Server PHP
+1. Pindah ke Directory Project
+    ```sh
+    cd /var/www/html/nama_project
+    ```
+2. Lalu Jalankan
+    ```sh 
+    php -S localhost:8001
+    ```
+Referensi:
+- *[https://www.linuxsec.org/2019/10/cara-menjalankan-built-in-web-server-di-php.html](https://www.linuxsec.org/2019/10/cara-menjalankan-built-in-web-server-di-php.html)*
